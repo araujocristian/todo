@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.todoInfos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoInfos > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.textCreated {
+  color: var(--blue-500);
+}
+
+.textCompleted {
+  color: var(--purple-500);
+}
+
+.counter {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: 700;
+  font-size: 12px;
+
+  padding: 0.13rem 0.5rem;
+  border-radius: 999px;
+}
+
+.emptyTodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-300);
+  border-radius: 8px;
+}
+
+.emptyTodoList > svg {
+  margin-bottom: 1rem;
+}
+
+.todoList {
+  margin-top: 1.5rem;
+}
